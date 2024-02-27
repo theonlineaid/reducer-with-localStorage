@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    box-sizing: border-box 
+}
+
+.text_beetween_and_center_align {
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+.border5px {
+    border-radius: 5px;
+}
