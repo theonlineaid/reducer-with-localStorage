@@ -2,6 +2,7 @@
 import React, { useReducer, useState } from 'react';
 import './App.css';
 import { initialState, reducer } from './reducer';
+import Register from './Register';
 
 const App = () => {
   const [text, setText] = useState('');
@@ -58,6 +59,8 @@ const App = () => {
           </ul>
         )}
       </div>
+
+      <Register />
     </div>
   );
 };
